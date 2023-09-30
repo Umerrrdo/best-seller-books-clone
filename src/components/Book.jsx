@@ -3,10 +3,17 @@ import '../css/booklist.css'
 
 export default function Book(props) {
     return (
-        <section>
-            <img src={props.image} alt={props.alt} />
-            <h4>{props.name}</h4>
-            <p>{props.author}</p>
+        <section id='book'>
+            <img id='book-img' src={props.image} alt={props.alt} />
+            <div id="book-info">
+                <a id='book-name' href='#'>{props.name}  </a>
+                <p id='author'>{props.author}</p>
+                <a className="a-link-normal" title="4.6 out of 5 stars" href="#">
+                    <i className="a-icon a-icon-star-small a-star-small-4-5 aok-align-top">
+                        <span className="a-icon-alt"></span>
+                    </i>
+                    <span id="rating-text">775</span></a>
+            </div>
         </section>
     )
 }
