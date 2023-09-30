@@ -8,6 +8,10 @@ body {
     color: #0f1111;
 }
 
+.book-container {
+    display: flex;
+}
+
 #book {
     width: 330px;
     height: 318px;
@@ -15,23 +19,37 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+    line-height: 16px;
 }
 
 #book-img {
     margin-top: 35px;
     width: 280px;
-    height: 190px;
+    height: 187px;
 }
 
 #book-info {
     margin-left: 15px;
-    line-break: loose;
+    width: 280px;
+    overflow: hidden;
+    /* make sure it hides the content that overflows */
+    white-space: nowrap;
+    /* don't break the line */
+    text-overflow: ellipsis;
+    /* give the beautiful '...' effect */
 }
 
 #book-name {
     font-size: 14px;
     color: #007185;
     text-decoration: none;
+    width: 100px;
+    overflow: hidden;
+    /* make sure it hides the content that overflows */
+    white-space: nowrap;
+    /* don't break the line */
+    text-overflow: ellipsis;
+    /* give the beautiful '...' effect */
 }
 
 #author {
@@ -42,9 +60,10 @@ body {
     background-position: -2px -42px;
 }
 
+/* 
 .a-row {
     width: 100%;
-}
+} */
 
 .a-icon.a-icon-star,
 .a-icon.a-icon-star-medium,
@@ -54,6 +73,8 @@ body {
     -webkit-background-size: 512px 512px;
     background-size: 512px 512px;
     background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }
 
 .a-icon-star,
@@ -84,5 +105,18 @@ body {
     color: #007185;
     position: relative;
     bottom: 5px;
+    padding: 0;
+    margin: 0;
+}
 
+#book-type {
+    font-size: 11px;
+    color: #565959;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#price {
+    font-size: 14px;
+    color: #B12704;
+    font-family: Arial, Helvetica, sans-serif;
 }

@@ -12,7 +12,9 @@ export default function Book(props) {
                     <i className="a-icon a-icon-star-small a-star-small-4-5 aok-align-top">
                         <span className="a-icon-alt"></span>
                     </i>
-                    <span id="rating-text">775</span></a>
+                    <span id="rating-text">{props.rating}</span></a>
+                <p id="book-type">{props.type}</p>
+                <p id="price">${props.price}</p>
             </div>
         </section>
     )
