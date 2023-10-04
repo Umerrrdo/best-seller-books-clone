@@ -13,8 +13,8 @@ export default function Navbar() {
                 <div id="deliver">
                     <img src={NavLogo} alt="" />
                     <div id="deliver-text">
-                        <span>Deliver to</span>
-                        <span>Pakistan</span>
+                        <span id='span-1'>Deliver to</span>
+                        <span id='span-2'>Pakistan</span>
                     </div>
                 </div>
             </header>

@@ -24,7 +24,10 @@
     margin: auto;
 }
 
+#deliver {
+    display: flex;
 
+}
 
 #deliver>img {
     width: 23px;
@@ -32,4 +35,23 @@
     filter: invert(100%);
     position: relative;
     top: 20px;
+}
+
+#deliver-text {
+    display: flex;
+    position: relative;
+    top: 9px;
+    color: white;
+    flex-direction: column;
+}
+
+#span-1 {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+#span-2 {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
 }
