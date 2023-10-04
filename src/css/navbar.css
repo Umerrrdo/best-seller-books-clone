@@ -24,10 +24,12 @@
     margin: auto;
 }
 
+
+
 #deliver>img {
-    width: 15px;
-    height: 18px;
+    width: 23px;
+    height: 19px;
     filter: invert(100%);
     position: relative;
-    top: 15px;
+    top: 20px;
 }
