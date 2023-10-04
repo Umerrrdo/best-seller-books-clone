@@ -27,4 +27,7 @@
 #deliver>img {
     width: 15px;
     height: 18px;
+    filter: invert(100%);
+    position: relative;
+    top: 15px;
 }
