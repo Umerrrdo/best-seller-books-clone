@@ -17,6 +17,16 @@ export default function Navbar() {
                         <span id='span-2'>Pakistan</span>
                     </div>
                 </div>
+                <form action="#">
+                    <div id="nav-search-bar">
+                        <div id="selection-box">
+                            <select name="Books" id="selection-menu">
+                                <option value="Books">Books</option>
+                            </select>
+                        </div>
+                        <input type="text" name="Name" id="search-bar" placeholder='Search Here' />
+                    </div>
+                </form>
             </header>
         </nav>
     )
