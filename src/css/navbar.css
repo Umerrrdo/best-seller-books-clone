@@ -70,3 +70,17 @@
     padding: 2px;
     height: 32px;
 }
+
+#search-bar {
+    position: relative;
+    right: 3px;
+    height: 28px;
+    width: 75%;
+}
+
+::placeholder {
+    color: #565959;
+    font-size: 14px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

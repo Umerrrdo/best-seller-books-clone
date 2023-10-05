@@ -27,6 +27,9 @@ export default function Navbar() {
                         <input type="text" name="Name" id="search-bar" placeholder='Search Here' />
                     </div>
                 </form>
+                <div id="search-logo">
+
+                </div>
             </header>
         </nav>
     )
